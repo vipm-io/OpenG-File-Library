@@ -1,21 +1,21 @@
 [Package Name]
 
-Name=oglib_{library}
+Name=oglib_file
 
-Version=2.5
+Version=2.8
 
 Release=1
 
 
 [Description]
 
-Description="The {library} package contains several routines for operating on {library} data."
+Description="The file package contains several routines for operating on files."
 
-Summary="OpenG {library} Tools"
+Summary="OpenG File Tools"
 
 License=BSD
 
-Copyright="2002-2006 Cal-Bay Systems, Inc., Jim Kring.  2006 MKS Instruments, Inc.  All rights reserved."
+Copyright="2002 2003 Cal-Bay Systems, Inc., 2002-2006 Jim Kring, Rolf Kalbermatter"
 
 Distribution="OpenG Toolkit"
 
@@ -23,14 +23,14 @@ Icon=../source/icon.bmp
 
 Vendor=OpenG.org
 
-URL=http://opengtoolkit.sourceforge.net/{library}
+URL=http://opengtoolkit.sourceforge.net/file
 
 Packager="Jim Kring <jim@jimkring.com>"
 
 
 [Dependencies]
 
-Requires=ogrsc_dynamicpalette>=2.0,nirsc_html_help_common>=1.0,oglib_error>=2.0,oglib_string>=2.0,oglib_lvdata>=2.0
+Requires="ogrsc_dynamicpalette >= 2.0, oglib_string >= 2.0, oglib_array >= 2.0, oglib_appcontrol >= 2.0, oglib_error >= 2.0"
 
 AutoReqProv=FALSE
 
@@ -46,36 +46,50 @@ Exclusive_OS=All
 
 [Files]
 
-Num File Groups=5
+Num File Groups=6
 
 
 [File Group 0]
 
 Source Dir=../built/library
 
-Target Dir=<OpenG.lib>/array
+Target Dir=<OpenG.lib>/file
 
 Replace Mode=Always
 
 Num Files=1
 
-File 0="{library}.llb/*"
+File 0="file.llb/*"
 
 
 [File Group 1]
 
 Source Dir="../source"
 
-Target Dir="<user.lib>/_dynamicpalette_dirs/{library}"
+Target Dir=<user.lib>/_OpenG.lib/file
+
+Replace Mode=Always
+
+Num Files=2
+
+File 0=fileconstants.mnu
+File 1=librarian.mnu
+
+
+[File Group 2]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/file"
 
 Replace Mode=Always
 
 Num Files=1
 
-File 0=oglib_{library}.mnu
+File 0=oglib_file.mnu
 
 
-[File Group 2]
+[File Group 3]
 
 Source Dir="../source"
 
@@ -85,29 +99,32 @@ Replace Mode=Always
 
 Num Files=1
 
-File 0=oglib_{library}.mnu
-
-
-[File Group 3]
-
-Source Dir=../built/help
-
-Target Dir=<help>/OpenG/{library}
-
-Replace Mode=Always
-
-Num Files=1
-
-File 0=*.*
+File 0=oglib_file.mnu
 
 
 [File Group 4]
-Source Dir=../examples
 
-Target Dir=<application>/examples/OpenG/{library}
+Source Dir=../built/help
+
+Target Dir=<help>/OpenG/file
 
 Replace Mode=Always
 
 Num Files=1
 
 File 0=*.*
+
+
+[File Group 5]
+Source Dir=../examples
+
+Target Dir=<application>/examples/OpenG/file
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=*.*
+
+
+

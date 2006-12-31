@@ -41,7 +41,7 @@ Allow CBVI & Build Hierarchy Overlap=TRUE
 # any keyname for Top Level VIs.  Keynames for this section
 # are arbitrary.
 [Top Level VIs]
-Top Level VI 1="VI Tree - {library}.vi"
+Top Level VI 1="VI Tree - file.vi"
 
 
 
@@ -68,7 +68,7 @@ Source Dir="."
 # source hierarchy which is located beneath Source Directory,
 # except for those VIs and CTLs found beneath a subdirectory
 # specified as a Source Dir of another Destination. 
-Target Dir="{library}.llb"
+Target Dir="file.llb"
 
 # If TRUE, then the Target Dir will be converted into an LLB.
 # This setting may be overrided by the Convert Target to EXE
