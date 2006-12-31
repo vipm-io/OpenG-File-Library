@@ -46,7 +46,7 @@ Exclusive_OS=All
 
 [Files]
 
-Num File Groups=6
+Num File Groups=8
 
 
 [File Group 0]
@@ -64,19 +64,48 @@ File 0="file.llb/*"
 
 [File Group 1]
 
-Source Dir="../source"
+Source Dir="../source/submenus/common"
 
 Target Dir=<user.lib>/_OpenG.lib/file
 
 Replace Mode=Always
 
-Num Files=2
+Num Files=1
 
-File 0=fileconstants.mnu
-File 1=librarian.mnu
+File 0=*.mnu
 
 
 [File Group 2]
+
+Exclusive_LabVIEW_Version=6.1,7.0,7.1
+
+Source Dir="../source/submenus/pre8x"
+
+Target Dir=<user.lib>/_OpenG.lib/file
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=*.mnu
+
+
+[File Group 3]
+
+Exclusive_LabVIEW_Version=">=8.0"
+
+Source Dir="../source/submenus/8x"
+
+Target Dir=<user.lib>/_OpenG.lib/file
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=*.mnu
+
+
+[File Group 4]
 
 Source Dir="../source"
 
@@ -89,7 +118,7 @@ Num Files=1
 File 0=oglib_file.mnu
 
 
-[File Group 3]
+[File Group 5]
 
 Source Dir="../source"
 
@@ -102,7 +131,7 @@ Num Files=1
 File 0=oglib_file.mnu
 
 
-[File Group 4]
+[File Group 6]
 
 Source Dir=../built/help
 
@@ -115,7 +144,7 @@ Num Files=1
 File 0=*.*
 
 
-[File Group 5]
+[File Group 7]
 Source Dir=../examples
 
 Target Dir=<application>/examples/OpenG/file
@@ -125,6 +154,10 @@ Replace Mode=Always
 Num Files=1
 
 File 0=*.*
+
+
+
+
 
 
 

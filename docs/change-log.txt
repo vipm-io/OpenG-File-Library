@@ -1,0 +1,34 @@
+-= oglib_file-2.7-1.ogp =-
+
+Changes from 2.6-1 --> 2.7-1
+--------------------------------
+2006-03-20
+[FIX] Now checks for valid path and generates an argument error if not valid
+
+Changes from 2.4-1 --> 2.5-1
+--------------------------------
+2005-04-16
+[NEW] "Temporary Filename" added to library
+[NEW] "Force File Move" added to library
+[FIX] "File Info" owner and group support for Linuxs
+
+Changes from 2.3-1 --> 2.4-1
+--------------------------------
+2004-11-14
+[FIX] Package now overwrites existing files in target location
+2004-11-12
+[NEW] "File Exists.vi" was added to the library
+
+Changes from 2.2-1 --> 2.3-1
+--------------------------------
+2004-08-11
+[FIX] "Merge Directories" failed on Mac.s
+2004-11-06
+[FIX] fixed [935409] bug in VI delete recursively that failed on
+      Read-Only folders when ignore Read-Only was selected.
+
+Changes from 2.1-1 --> 2.2-1
+--------------------------------
+2003-11-26
+added "Strip Path Extension - 1D Array of Strings.vi" to PolyVI
+"Strip Path Extension"
