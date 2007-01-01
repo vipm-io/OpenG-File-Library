@@ -1,7 +1,18 @@
 2006-12-31 
 [FIX] Fixed problem with File Constants submenu having missing items (question marks) in 8.x
 [MOD] Changed license from LGPL to BSD
-
-
-[MOD] Changed...
-[NEW] Added...
+[MOD] Changed "Valid Path.vi" to polymorphic with path and array of path inputs.
+[FIX] Made input of "Strip Path Extension.vi" required.
+[FIX] Made "Directory Path" input of "Create Dir if Non-Existant.vi" required.
+[FIX] Made "Path" input of "Delete Recursive.vi" required.
+[FIX] Made "directory path" input of "List Directory.vi" required.
+[FIX] Made "Root Path" and "Absolute or Relative Path" inputs of "Append Path to Root if Relative.vi" required.
+[FIX] Made "Path" input of "Valid Path" required.
+[FIX] Made "file name" input of "Convert File Extension (Path).vi" required.
+[FIX] Made "original file" and "copy file" inputs of "Compare File Binary.vi" required.
+[FIX] Made "file" input of "File Info.vi" required.
+[FIX] Made "path1" and "path2" inputs of "Compare Two Paths.vi" required.
+[FIX] Made "target" and "source" inputs of "Force File Move.vi" required.
+[FIX] Made "target path" and "source path" inputs of "Copy with Options.vi" required.
+[FIX] Made "Path" input of "Delete" required.
+[FIX] Made "Path" input of "Delete" required.
