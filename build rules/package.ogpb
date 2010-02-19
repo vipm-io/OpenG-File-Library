@@ -2,14 +2,14 @@
 
 Name=oglib_file
 
-Version=2.8
+Version=3.0.1
 
 Release=1
 
 
 [Description]
 
-Description="The file package contains several routines for operating on files."
+Description="The file package contains several routines for operating on files.\0A\0A[Release Notes]\0A* Fixes issues with errors generated when setting read-only permissions in LabVIEW 2009.\0A* Package sources upgraded to LabVIEW 8.2 (package now compatible with LV8.2 or greater)."
 
 Summary="OpenG File Tools"
 
@@ -30,14 +30,14 @@ Packager="Jim Kring <jim@jimkring.com>"
 
 [Dependencies]
 
-Requires="ogrsc_dynamicpalette >= 2.0, oglib_string >= 2.0, oglib_array >= 2.0, oglib_appcontrol >= 2.0, oglib_error >= 2.0"
+Requires="ogrsc_dynamicpalette >= 0.2, oglib_string >= 2.0, oglib_array >= 2.0, oglib_appcontrol >= 2.0, oglib_error >= 2.0"
 
 AutoReqProv=FALSE
 
 
 [Platform]
 
-Exclusive_LabVIEW_Version=>=6.1
+Exclusive_LabVIEW_Version=>=8.2
 
 Exclusive_LabVIEW_System=All
 
