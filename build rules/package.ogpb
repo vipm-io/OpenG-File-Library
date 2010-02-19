@@ -15,7 +15,7 @@ Summary="OpenG File Tools"
 
 License=BSD
 
-Copyright="2002 2003 Cal-Bay Systems, Inc., 2002-2006 Jim Kring, Rolf Kalbermatter"
+Copyright="2002-2010 Jim Kring, Rolf Kalbermatter, 2002 2003 Cal-Bay Systems, Inc."
 
 Distribution="OpenG Toolkit"
 
@@ -23,7 +23,7 @@ Icon=../source/icon.bmp
 
 Vendor=OpenG.org
 
-URL=http://opengtoolkit.sourceforge.net/file
+URL=http://wiki.openg.org/oglib_file
 
 Packager="Jim Kring <jim@jimkring.com>"
 
