@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-03 20:54:37" Creator="Administrator" Comments="" ID="ac5f4b05565cb6b9508e599faf4834b9">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-04 23:53:02" Creator="Administrator" Comments="" ID="3db1a381ba7105cd5d7da36a6c0f40d6">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
     <Library_Version>4.0.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..</Library_Output_Folder>
-    <Company_Name/>
+    <Company_Name>OpenG</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>9.0</Package_LabVIEW_Version>
@@ -43,6 +43,9 @@
       <URL>http://wiki.openg.org/Oglib_file</URL>
       <Release_Notes>* Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater).
 * Package build with VIPM 2010.
+* [Fix 3127080] - Remove OpenG Tags label from FP of all VIs.
+* [Fix 3127078] - Make "Append Path to Root if Relative" into Poly VI.
+* [Fix 3127076] - Use type for poly Selector Names of various VIs.
 * [Fix 3123509] - "Compare Two Paths" does not work with relative path inputs.
 * [Fix 2819187] - List Recursive eliminates errors on an empty path.
 * [Fix 1962835] - Missing description in OpenG File.
