@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-05 02:21:38" Creator="Administrator" Comments="" ID="f4cc161ea040d3147170c3ae0dff9fd9">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-05 08:58:45" Creator="Administrator" Comments="" ID="93fb27c3cf53d8e59955a942e742d86c">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
     <Library_Version>4.0.0.15</Library_Version>
@@ -41,16 +41,16 @@
       <Copyright>2002-2010 Jim Kring, Rolf Kalbermatter, 2002-2003 Cal-Bay Systems, Inc., 2010 Jonathon Green</Copyright>
       <Packager>OpenG</Packager>
       <URL>http://wiki.openg.org/Oglib_file</URL>
-      <Release_Notes>* Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater).
-* Package build with VIPM 2010.
-* [Fix 3127080] - Remove OpenG Tags label from FP of all VIs.
-* [Fix 3127078] - Make "Append Path to Root if Relative" into Poly VI.
-* [Fix 3127076] - Use type for poly Selector Names of various VIs.
-* [Fix 3123509] - "Compare Two Paths" does not work with relative path inputs.
-* [Fix 2819187] - List Recursive eliminates errors on an empty path.
-* [Fix 1962835] - Missing description in OpenG File.
-* [Fix 1815370] - "Compare Two Paths" should handle arrays (poly VI).
-* [Fix 1815368] - "File Exists" should also handle arrays (be poly VI).</Release_Notes>
+      <Release_Notes>Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater)
+Package build with VIPM 2010
+[FIX] 3127080 - Remove OpenG Tags label from FP of all VIs
+[FIX] 3127078 - Make "Append Path to Root if Relative" into Poly VI
+[FIX] 3127076 - Use type for poly Selector Names of various VIs
+[FIX] 3123509 - "Compare Two Paths" does not work with relative path inputs
+[FIX] 2819187 - List Recursive eliminates errors on an empty path
+[FIX] 1962835 - Missing description in OpenG File
+[FIX] 1815370 - "Compare Two Paths" should handle arrays (poly VI)
+[FIX] 1815368 - "File Exists" should also handle arrays (be poly VI)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
