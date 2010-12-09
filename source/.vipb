@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-09 19:12:00" Creator="Administrator" Comments="" ID="698dac8171dd3d222f500b9623aa85bb">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-09 20:05:17" Creator="Administrator" Comments="" ID="b1eb1029ecd2e28d71d8098de9dac8f3">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
     <Library_Version>4.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
-    <Company_Name>OpenG.org</Company_Name>
+    <Company_Name/>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>9.0</Package_LabVIEW_Version>
@@ -61,7 +61,7 @@ Package build with VIPM 2010
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\examples\OpenG\OpenG File Tools</Path>
+        <Path>&lt;application&gt;\examples\OpenG\file</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
