@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-06 19:28:43" Creator="Administrator" Comments="" ID="430934d7857dc9314a8eff9bd4ad72cc">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-09 19:12:00" Creator="Administrator" Comments="" ID="698dac8171dd3d222f500b9623aa85bb">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
-    <Library_Version>4.0.0.17</Library_Version>
+    <Library_Version>4.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..</Library_Output_Folder>
+    <Library_Output_Folder>..</Library_Output_Folder>
     <Company_Name>OpenG.org</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -27,7 +27,7 @@
       <Direct_Dependencies>oglib_string-2.6-1</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI>..\..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
+      <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -61,7 +61,7 @@ Package build with VIPM 2010
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\examples\OpenG\OpenG File Tools</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -104,17 +104,56 @@ Package build with VIPM 2010
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>.\library</Path>
+        <Destination>Toolkit VIs</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>.\library</Path>
+        <Destination>Toolkit VIs</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>examples</Path>
+        <Destination>Examples</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>.\library</Path>
+        <Destination>Toolkit VIs</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
+        <Password/>
+      </Password_Overrides>
+      <Password_Overrides>
+        <Path>Library</Path>
         <Password/>
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace/>
+      </Namespace_Overrides>
+      <Namespace_Overrides>
+        <Path>library</Path>
+        <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__ogtk</Namespace>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>images</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>user docs</Path>
+      </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>..\..\docs\License Agreement.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>user docs\License Agreement.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -184,7 +223,7 @@ Package build with VIPM 2010
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Create Dir if Non-Existant.vi</Path>
+        <Path>library\Create Dir if Non-Existant.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -197,7 +236,7 @@ Package build with VIPM 2010
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Delete Recursive.vi</Path>
+        <Path>library\Delete Recursive.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -210,7 +249,7 @@ Package build with VIPM 2010
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>List Directory Recursive.vi</Path>
+        <Path>library\List Directory Recursive.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -223,7 +262,7 @@ Package build with VIPM 2010
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>List Directory.vi</Path>
+        <Path>library\List Directory.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -236,7 +275,7 @@ Package build with VIPM 2010
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Merge Directories.vi</Path>
+        <Path>library\Merge Directories.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -249,7 +288,7 @@ Package build with VIPM 2010
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Copy with Options.vi</Path>
+        <Path>library\Copy with Options.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -262,7 +301,7 @@ Package build with VIPM 2010
           <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Force File Move.vi</Path>
+        <Path>library\Force File Move.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -275,7 +314,7 @@ Package build with VIPM 2010
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Build Path.vi</Path>
+        <Path>library\Build Path.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -288,7 +327,7 @@ Package build with VIPM 2010
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Strip Path.vi</Path>
+        <Path>library\Strip Path.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -301,7 +340,7 @@ Package build with VIPM 2010
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Temporary Filename.vi</Path>
+        <Path>library\Temporary Filename.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -314,7 +353,7 @@ Package build with VIPM 2010
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>File Info.vi</Path>
+        <Path>library\File Info.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -327,7 +366,7 @@ Package build with VIPM 2010
           <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>File Exists.vi</Path>
+        <Path>library\File Exists.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -340,7 +379,7 @@ Package build with VIPM 2010
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Compare File Binary.vi</Path>
+        <Path>library\Compare File Binary.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -353,7 +392,7 @@ Package build with VIPM 2010
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Compare Two Paths.vi</Path>
+        <Path>library\Compare Two Paths.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -366,7 +405,7 @@ Package build with VIPM 2010
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Append Path to Root if Relative.vi</Path>
+        <Path>library\Append Path to Root if Relative.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -379,7 +418,7 @@ Package build with VIPM 2010
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Strip Path Extension.vi</Path>
+        <Path>library\Strip Path Extension.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -392,7 +431,7 @@ Package build with VIPM 2010
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Convert File Extension.vi</Path>
+        <Path>library\Convert File Extension.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -405,7 +444,7 @@ Package build with VIPM 2010
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Valid Path.vi</Path>
+        <Path>library\Valid Path.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
@@ -516,7 +555,7 @@ Package build with VIPM 2010
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Current VI's Path.vi</Path>
+        <Path>library\Current VI's Path.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -529,7 +568,7 @@ Package build with VIPM 2010
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Application Directory.vi</Path>
+        <Path>library\Application Directory.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -542,7 +581,7 @@ Package build with VIPM 2010
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Default Directory.vi</Path>
+        <Path>library\Default Directory.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -555,7 +594,7 @@ Package build with VIPM 2010
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Current VIs Parent Directory.vi</Path>
+        <Path>library\Current VIs Parent Directory.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -568,7 +607,7 @@ Package build with VIPM 2010
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>VI Library.vi</Path>
+        <Path>library\VI Library.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -581,7 +620,7 @@ Package build with VIPM 2010
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Instrument Library.vi</Path>
+        <Path>library\Instrument Library.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -594,7 +633,7 @@ Package build with VIPM 2010
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>User Library.vi</Path>
+        <Path>library\User Library.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -607,7 +646,7 @@ Package build with VIPM 2010
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>OpenG Library.vi</Path>
+        <Path>library\OpenG Library.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -620,7 +659,7 @@ Package build with VIPM 2010
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Temporary Directory.vi</Path>
+        <Path>library\Temporary Directory.vi</Path>
       </Items_Data>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
@@ -718,7 +757,7 @@ Package build with VIPM 2010
           <Column>8</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Set VI Top Level.vi</Path>
+        <Path>library\Set VI Top Level.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -731,7 +770,7 @@ Package build with VIPM 2010
           <Column>9</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>List Top Level VIs.vi</Path>
+        <Path>library\List Top Level VIs.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -887,7 +926,7 @@ Package build with VIPM 2010
           <Column>9</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Convert VI Libraries to Dirs (proxy).vi</Path>
+        <Path>library\Convert VI Libraries to Dirs (proxy).vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -900,7 +939,7 @@ Package build with VIPM 2010
           <Column>8</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Convert Dirs to VI Libraries (proxy).vi</Path>
+        <Path>library\Convert Dirs to VI Libraries (proxy).vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
