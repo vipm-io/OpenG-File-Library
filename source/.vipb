@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2010-12-11 17:25:12" Creator="Administrator" Comments="" ID="fa960f4babb89c8fdcd2affd62c6b458">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-11-29 17:46:20" Modified_Date="2011-01-26 10:57:34" Creator="Administrator" Comments="" ID="cb8f6df026f24c277d8f9ac29b73357c">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
     <Library_Version>4.0.0.20</Library_Version>
@@ -37,8 +37,8 @@
     <Description>
       <One_Line_Description_Summary>OpenG File Tools</One_Line_Description_Summary>
       <Description>The file package contains several routines for operating on files.</Description>
-      <Copyright>2002-2010 Jim Kring, Rolf Kalbermatter, 2002-2003 Cal-Bay Systems, Inc., 2010 Jonathon Green</Copyright>
-      <Packager>OpenG</Packager>
+      <Copyright>2002-2010 Jim Kring, Rolf Kalbermatter; 2002-2003 Cal-Bay Systems, Inc.; 2010 Jonathon Green</Copyright>
+      <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_file</URL>
       <Release_Notes>Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater)
 Package build with VIPM 2010
