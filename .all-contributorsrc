@@ -46,6 +46,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jg-code",
+      "name": "Jonathon Green",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16163577?v=4",
+      "profile": "http://www.jgcode.net",
+      "contributions": [
+        "code",
+        "test",
+        "maintenance"
+      ]
     }
   ]
 }
