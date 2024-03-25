@@ -6,6 +6,8 @@
 
 [Install the OpenG File Library with VIPM](https://www.vipm.io/package/oglib_file/)
 
+![image](https://github.com/vipm-io/OpenG-File-Library/assets/381432/53a9e95d-aa89-47af-9fcc-f168c68d21b3)
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
