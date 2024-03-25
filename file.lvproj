@@ -45,7 +45,7 @@
 				<Item Name="Top 1.vi" Type="VI" URL="../tests/test.llb/Top 1.vi"/>
 				<Item Name="Top 2.vi" Type="VI" URL="../tests/test.llb/Top 2.vi"/>
 			</Item>
-			<Item Name="exclused_vis.txt" Type="Document" URL="../tests/exclused_vis.txt"/>
+			<Item Name="excluded_vis.txt" Type="Document" URL="../tests/excluded_vis.txt"/>
 			<Item Name="TEST - Append Path to Root if Relative - Absolute or Relative Path Array.vi" Type="VI" URL="../tests/TEST - Append Path to Root if Relative - Absolute or Relative Path Array.vi"/>
 			<Item Name="TEST - Append Path to Root if Relative - Array.vi" Type="VI" URL="../tests/TEST - Append Path to Root if Relative - Array.vi"/>
 			<Item Name="TEST - Append Path to Root if Relative - Root Path Array.vi" Type="VI" URL="../tests/TEST - Append Path to Root if Relative - Root Path Array.vi"/>
@@ -82,8 +82,6 @@
 			<Item Name="TEST - Set VI Top Level.vi" Type="VI" URL="../tests/TEST - Set VI Top Level.vi"/>
 			<Item Name="TEST - Strip Path Extension.vi" Type="VI" URL="../tests/TEST - Strip Path Extension.vi"/>
 			<Item Name="TEST - Strip Path.vi" Type="VI" URL="../tests/TEST - Strip Path.vi"/>
-			<Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_SCALAR.vit"/>
-			<Item Name="TEST - TEMPLATE_VECTOR.vit" Type="VI" URL="../tests/TEST - TEMPLATE_VECTOR.vit"/>
 			<Item Name="TEST - Temporary Directory.vi" Type="VI" URL="../tests/TEST - Temporary Directory.vi"/>
 			<Item Name="TEST - Temporary Filename.vi" Type="VI" URL="../tests/TEST - Temporary Filename.vi"/>
 			<Item Name="TEST - User Library.vi" Type="VI" URL="../tests/TEST - User Library.vi"/>
@@ -91,28 +89,13 @@
 			<Item Name="TEST - VI Library.vi" Type="VI" URL="../tests/TEST - VI Library.vi"/>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
-				<Item Name="Conditional Auto-Indexing Tunnel (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (String)__ogtk.vi"/>
-				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
-				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
-				<Item Name="Compare Two Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Compare Two Paths__ogtk.vi"/>
-				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
-				<Item Name="Empty Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty Array__ogtk.vi"/>
-				<Item Name="Empty 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (String)__ogtk.vi"/>
-				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
-				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
-				<Item Name="Filter 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (Path)__ogtk.vi"/>
-				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_array__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array__ogtk.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>
@@ -168,8 +151,11 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
-			<Item Name="Slice String.vi" Type="VI" URL="../tests/TEST - TEMPLATE_VECTOR.vit/Slice String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

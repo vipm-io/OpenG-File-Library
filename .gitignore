@@ -1,17 +1,12 @@
-# Libraries
-*.lvlibp
-*.llb
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
+# LabVIEW Metadata
 *.aliases
 *.lvlps
-.cache/
+
+# Dragon Metadata
+.dragon/*
+
+# Temp Build Files
+.source/*
+
+# Build Packages
+*.vip

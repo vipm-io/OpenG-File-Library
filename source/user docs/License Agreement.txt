@@ -1,6 +1,6 @@
 OpenG File Library
 
-Copyright (c) 2002-2010 Jim Kring, Rolf Kalbermatter; 2002 2003 Cal-Bay Systems, Inc.; 2010-2011 Jonathon Green
+Copyright (c) 2002-2024 Project Contributors (See CONTRIBUTORS.md)
 
 All rights reserved.
 
