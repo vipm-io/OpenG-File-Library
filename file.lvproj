@@ -30,81 +30,8 @@
 			</Item>
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
-				<Item Name="Append Path to Root if Relative" Type="Folder">
-					<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array.vi" Type="VI" URL="../source/library/Append Path to Root if Relative/Append Path to Root if Relative - Absolute or Relative Path Array.vi"/>
-					<Item Name="Append Path to Root if Relative - Array.vi" Type="VI" URL="../source/library/Append Path to Root if Relative/Append Path to Root if Relative - Array.vi"/>
-					<Item Name="Append Path to Root if Relative - Root Path Array.vi" Type="VI" URL="../source/library/Append Path to Root if Relative/Append Path to Root if Relative - Root Path Array.vi"/>
-					<Item Name="Append Path to Root if Relative - Scalar.vi" Type="VI" URL="../source/library/Append Path to Root if Relative/Append Path to Root if Relative - Scalar.vi"/>
-				</Item>
-				<Item Name="Build Path" Type="Folder">
-					<Item Name="Build Path - File Names and Paths Arrays - path.vi" Type="VI" URL="../source/library/Build Path/Build Path - File Names and Paths Arrays - path.vi"/>
-					<Item Name="Build Path - File Names and Paths Arrays.vi" Type="VI" URL="../source/library/Build Path/Build Path - File Names and Paths Arrays.vi"/>
-					<Item Name="Build Path - File Names Array - path.vi" Type="VI" URL="../source/library/Build Path/Build Path - File Names Array - path.vi"/>
-					<Item Name="Build Path - File Names Array.vi" Type="VI" URL="../source/library/Build Path/Build Path - File Names Array.vi"/>
-					<Item Name="Build Path - Traditional - path.vi" Type="VI" URL="../source/library/Build Path/Build Path - Traditional - path.vi"/>
-					<Item Name="Build Path - Traditional.vi" Type="VI" URL="../source/library/Build Path/Build Path - Traditional.vi"/>
-				</Item>
-				<Item Name="Compare Two Paths" Type="Folder">
-					<Item Name="Compare Two Paths - Array.vi" Type="VI" URL="../source/library/Compare Two Paths/Compare Two Paths - Array.vi"/>
-					<Item Name="Compare Two Paths - Path1 Array.vi" Type="VI" URL="../source/library/Compare Two Paths/Compare Two Paths - Path1 Array.vi"/>
-					<Item Name="Compare Two Paths - Path2 Array.vi" Type="VI" URL="../source/library/Compare Two Paths/Compare Two Paths - Path2 Array.vi"/>
-					<Item Name="Compare Two Paths - Scalar.vi" Type="VI" URL="../source/library/Compare Two Paths/Compare Two Paths - Scalar.vi"/>
-				</Item>
-				<Item Name="Convert File Extension" Type="Folder">
-					<Item Name="Convert File Extension (Path).vi" Type="VI" URL="../source/library/Convert File Extension/Convert File Extension (Path).vi"/>
-					<Item Name="Convert File Extension (String).vi" Type="VI" URL="../source/library/Convert File Extension/Convert File Extension (String).vi"/>
-				</Item>
-				<Item Name="File Exists" Type="Folder">
-					<Item Name="File Exists - Array.vi" Type="VI" URL="../source/library/File Exists/File Exists - Array.vi"/>
-					<Item Name="File Exists - Scalar.vi" Type="VI" URL="../source/library/File Exists/File Exists - Scalar.vi"/>
-				</Item>
-				<Item Name="Strip Path" Type="Folder">
-					<Item Name="Strip Path - Arrays.vi" Type="VI" URL="../source/library/Strip Path/Strip Path - Arrays.vi"/>
-					<Item Name="Strip Path - Traditional.vi" Type="VI" URL="../source/library/Strip Path/Strip Path - Traditional.vi"/>
-				</Item>
-				<Item Name="Strip Path Extension" Type="Folder">
-					<Item Name="Strip Path Extension - 1D Array of Paths.vi" Type="VI" URL="../source/library/Strip Path Extension/Strip Path Extension - 1D Array of Paths.vi"/>
-					<Item Name="Strip Path Extension - 1D Array of Strings.vi" Type="VI" URL="../source/library/Strip Path Extension/Strip Path Extension - 1D Array of Strings.vi"/>
-					<Item Name="Strip Path Extension - Path.vi" Type="VI" URL="../source/library/Strip Path Extension/Strip Path Extension - Path.vi"/>
-					<Item Name="Strip Path Extension - String.vi" Type="VI" URL="../source/library/Strip Path Extension/Strip Path Extension - String.vi"/>
-				</Item>
-				<Item Name="Valid Path" Type="Folder">
-					<Item Name="Valid Path - Array.vi" Type="VI" URL="../source/library/Valid Path/Valid Path - Array.vi"/>
-					<Item Name="Valid Path - Traditional.vi" Type="VI" URL="../source/library/Valid Path/Valid Path - Traditional.vi"/>
-				</Item>
-				<Item Name="Append Path to Root if Relative.vi" Type="VI" URL="../source/library/Append Path to Root if Relative.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="../source/library/Application Directory.vi"/>
-				<Item Name="Build Path.vi" Type="VI" URL="../source/library/Build Path.vi"/>
-				<Item Name="Compare File Binary.vi" Type="VI" URL="../source/library/Compare File Binary.vi"/>
-				<Item Name="Compare Two Paths.vi" Type="VI" URL="../source/library/Compare Two Paths.vi"/>
-				<Item Name="Convert Dirs to VI Libraries (proxy).vi" Type="VI" URL="../source/library/Convert Dirs to VI Libraries (proxy).vi"/>
-				<Item Name="Convert File Extension.vi" Type="VI" URL="../source/library/Convert File Extension.vi"/>
-				<Item Name="Convert VI Libraries to Dirs (proxy).vi" Type="VI" URL="../source/library/Convert VI Libraries to Dirs (proxy).vi"/>
-				<Item Name="Copy with Options.vi" Type="VI" URL="../source/library/Copy with Options.vi"/>
-				<Item Name="Create Dir if Non-Existant.vi" Type="VI" URL="../source/library/Create Dir if Non-Existant.vi"/>
-				<Item Name="Current VI&apos;s Path.vi" Type="VI" URL="../source/library/Current VI&apos;s Path.vi"/>
-				<Item Name="Current VIs Parent Directory.vi" Type="VI" URL="../source/library/Current VIs Parent Directory.vi"/>
-				<Item Name="Default Directory.vi" Type="VI" URL="../source/library/Default Directory.vi"/>
-				<Item Name="Delete Recursive.vi" Type="VI" URL="../source/library/Delete Recursive.vi"/>
-				<Item Name="File Exists.vi" Type="VI" URL="../source/library/File Exists.vi"/>
-				<Item Name="File Info Record.ctl" Type="VI" URL="../source/library/File Info Record.ctl"/>
-				<Item Name="File Info.vi" Type="VI" URL="../source/library/File Info.vi"/>
-				<Item Name="Force File Move.vi" Type="VI" URL="../source/library/Force File Move.vi"/>
-				<Item Name="Instrument Library.vi" Type="VI" URL="../source/library/Instrument Library.vi"/>
-				<Item Name="List Directory Recursive.vi" Type="VI" URL="../source/library/List Directory Recursive.vi"/>
-				<Item Name="List Directory.vi" Type="VI" URL="../source/library/List Directory.vi"/>
-				<Item Name="List Top Level VIs.vi" Type="VI" URL="../source/library/List Top Level VIs.vi"/>
-				<Item Name="Merge Directories.vi" Type="VI" URL="../source/library/Merge Directories.vi"/>
-				<Item Name="OpenG Library.vi" Type="VI" URL="../source/library/OpenG Library.vi"/>
-				<Item Name="Set VI Top Level.vi" Type="VI" URL="../source/library/Set VI Top Level.vi"/>
-				<Item Name="Strip Path Extension.vi" Type="VI" URL="../source/library/Strip Path Extension.vi"/>
-				<Item Name="Strip Path.vi" Type="VI" URL="../source/library/Strip Path.vi"/>
-				<Item Name="Temporary Directory.vi" Type="VI" URL="../source/library/Temporary Directory.vi"/>
-				<Item Name="Temporary Filename.vi" Type="VI" URL="../source/library/Temporary Filename.vi"/>
-				<Item Name="User Library.vi" Type="VI" URL="../source/library/User Library.vi"/>
-				<Item Name="Valid Path.vi" Type="VI" URL="../source/library/Valid Path.vi"/>
-				<Item Name="VI Library.vi" Type="VI" URL="../source/library/VI Library.vi"/>
 				<Item Name="VI Tree - file.vi" Type="VI" URL="../source/library/VI Tree - file.vi"/>
+				<Item Name="openg_file.lvlib" Type="Library" URL="../source/library/openg_file.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>

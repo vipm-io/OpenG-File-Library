@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-11-29 17:46:20" Modified_Date="2024-03-25 15:19:08" Creator="Administrator" Comments="" ID="0dd87d4423d622ba07b0d2cc85d3d729">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-11-29 17:46:20" Modified_Date="2024-03-25 15:38:21" Creator="Administrator" Comments="" ID="0e5b4958df9c296c22bd90c2952968b9">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
     <Library_Version>6.0.0.23</Library_Version>
@@ -41,8 +41,13 @@
       <Copyright>2002-2010 Jim Kring, Rolf Kalbermatter; 2002-2003 Cal-Bay Systems, Inc.; 2010-2011 Jonathon Green</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_file</URL>
-      <Release_Notes>- Upgraded sources to LV2020 (#2)
-- Changed all VIs to source-only (#3)</Release_Notes>
+      <Release_Notes>- Upgraded sources to LV2020 #2
+- Changed all VIs to source-only #3
+- Moved library VIs into Library ('openg_file.lvlib') #4
+
+Kudos to contributors@Bas-vE and @jimkring for their work on this release.
+
+Important: Callers of this package will relink automatically to the new Library (openg_file.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -516,7 +521,7 @@
         <Path/>
         <VI_Title>LLB Librarian VIs</VI_Title>
       </Items_Data>
-      <GUID>B5F3CFBF76DF11F35B75306C8309FCB8</GUID>
+      <GUID>AAD744559D98101902D1C0AA815D82C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -719,7 +724,7 @@
         <Path>library\Temporary Directory.vi</Path>
         <VI_Title>Temporary Directory</VI_Title>
       </Items_Data>
-      <GUID>35D0A22E80AE15A76D089519C5CB4F22</GUID>
+      <GUID>4B2825B18924C1A3D1641008A12DB68E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1090,7 +1095,7 @@
         <Path>&lt;vi.lib&gt;\Utility\libraryn.llb\Get VI Library List.vi</Path>
         <VI_Title>Get VI Library List.vi</VI_Title>
       </Items_Data>
-      <GUID>FB4C9A20AA650D9DAEB61CE4933FB76F</GUID>
+      <GUID>567B1D19247BE594D1492827C23D949E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
