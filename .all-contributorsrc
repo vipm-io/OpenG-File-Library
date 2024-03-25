@@ -28,6 +28,15 @@
         "test",
         "maintenance"
       ]
+    },
+    {
+      "login": "RolfKal",
+      "name": "Rolf Kalbermatter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15158041?v=4",
+      "profile": "http://blog.kalbermatter.nl",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
