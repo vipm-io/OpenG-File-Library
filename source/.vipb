@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-11-29 17:46:20" Modified_Date="2024-03-25 15:38:21" Creator="Administrator" Comments="" ID="0e5b4958df9c296c22bd90c2952968b9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-11-29 17:46:20" Modified_Date="2024-03-25 10:36:13" Creator="Administrator" Comments="" ID="7e735256b802e7ee1b436820c23db6dc">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
-    <Library_Version>6.0.0.23</Library_Version>
+    <Library_Version>6.0.0.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
-    <Company_Name>OpenG.org</Company_Name>
+    <Company_Name>VIPM Community</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>20.0</Package_LabVIEW_Version>
@@ -17,14 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>oglib_appcontrol &gt;= 2.10</External_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 3.0.0</External_Dependencies>
-      <External_Dependencies>oglib_error &gt;= 2.3</External_Dependencies>
-      <External_Dependencies>oglib_string &gt;= 2.6</External_Dependencies>
-      <Direct_Dependencies>oglib_appcontrol-2.10-1</Direct_Dependencies>
-      <Direct_Dependencies>oglib_array-3.0.0-1</Direct_Dependencies>
-      <Direct_Dependencies>oglib_error-2.3-2</Direct_Dependencies>
-      <Direct_Dependencies>oglib_string-2.6-1</Direct_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 6.0.0.18</External_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
+      <Direct_Dependencies>oglib_array-6.0.0.18</Direct_Dependencies>
+      <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build VI - Run Unit Tests.vi</Pre-Build_VI>
@@ -38,14 +34,16 @@
     <Description>
       <One_Line_Description_Summary>OpenG File Library</One_Line_Description_Summary>
       <Description>The OpenG File Library package contains several routines for operating on files.</Description>
-      <Copyright>2002-2010 Jim Kring, Rolf Kalbermatter; 2002-2003 Cal-Bay Systems, Inc.; 2010-2011 Jonathon Green</Copyright>
-      <Packager>OpenG.org</Packager>
-      <URL>http://wiki.openg.org/Oglib_file</URL>
+      <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
+      <Packager>VIPM Community</Packager>
+      <URL>https://www.vipm.io/package/oglib_file/</URL>
       <Release_Notes>- Upgraded sources to LV2020 #2
 - Changed all VIs to source-only #3
 - Moved library VIs into Library ('openg_file.lvlib') #4
+- Removed dependency on OpenG Application Control package
+- Current VI's Parent Directory now calls an inlined copy of an OpenG Application Control VI to get caller's reference.
 
-Kudos to contributors@Bas-vE and @jimkring for their work on this release.
+Kudos to contributors @Bas-vE and @jimkring for their work on this release.
 
 Important: Callers of this package will relink automatically to the new Library (openg_file.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).</Release_Notes>
     </Description>
@@ -521,7 +519,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path/>
         <VI_Title>LLB Librarian VIs</VI_Title>
       </Items_Data>
-      <GUID>AAD744559D98101902D1C0AA815D82C2</GUID>
+      <GUID>6297411517D8FA96D4B1A7CF352703F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -724,7 +722,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Temporary Directory.vi</Path>
         <VI_Title>Temporary Directory</VI_Title>
       </Items_Data>
-      <GUID>4B2825B18924C1A3D1641008A12DB68E</GUID>
+      <GUID>0730A50ACC806BABD084D7364E2EF267</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1095,7 +1093,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>&lt;vi.lib&gt;\Utility\libraryn.llb\Get VI Library List.vi</Path>
         <VI_Title>Get VI Library List.vi</VI_Title>
       </Items_Data>
-      <GUID>567B1D19247BE594D1492827C23D949E</GUID>
+      <GUID>39290A68D59F165254D66D88DDF07824</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
