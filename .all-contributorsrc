@@ -17,6 +17,17 @@
         "code",
         "maintenance"
       ]
+    },
+    {
+      "login": "jimkring",
+      "name": "Jim Kring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/381432?v=4",
+      "profile": "https://github.com/jimkring",
+      "contributions": [
+        "code",
+        "test",
+        "maintenance"
+      ]
     }
   ]
 }
