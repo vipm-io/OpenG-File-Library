@@ -1,0 +1,62 @@
+{
+  "projectName": "OpenG-File-Library",
+  "projectOwner": "vipm-io",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Bas-vE",
+      "name": "Basve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16207111?v=4",
+      "profile": "https://github.com/Bas-vE",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "jimkring",
+      "name": "Jim Kring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/381432?v=4",
+      "profile": "https://github.com/jimkring",
+      "contributions": [
+        "code",
+        "test",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "RolfKal",
+      "name": "Rolf Kalbermatter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15158041?v=4",
+      "profile": "http://blog.kalbermatter.nl",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JKISoftware",
+      "name": "JKISoftware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6126199?v=4",
+      "profile": "http://jki.net",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jg-code",
+      "name": "Jonathon Green",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16163577?v=4",
+      "profile": "http://www.jgcode.net",
+      "contributions": [
+        "code",
+        "test",
+        "maintenance"
+      ]
+    }
+  ]
+}
