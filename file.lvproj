@@ -30,7 +30,6 @@
 			</Item>
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
-				<Item Name="VI Tree - file.vi" Type="VI" URL="../source/library/VI Tree - file.vi"/>
 				<Item Name="openg_file.lvlib" Type="Library" URL="../source/library/openg_file.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
@@ -88,6 +87,7 @@
 			<Item Name="TEST - Valid Path.vi" Type="VI" URL="../tests/TEST - Valid Path.vi"/>
 			<Item Name="TEST - VI Library.vi" Type="VI" URL="../tests/TEST - VI Library.vi"/>
 		</Item>
+		<Item Name="VI Tree - file.vi" Type="VI" URL="../source/library/VI Tree - file.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -95,7 +95,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
-				<Item Name="openg_array__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array__ogtk.lvlib"/>
+				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Read Characters From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Characters From File.vi"/>

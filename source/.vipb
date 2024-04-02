@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-11-29 17:46:20" Modified_Date="2024-03-31 21:45:25" Creator="Administrator" Comments="" ID="0cbd5110fcce3b117760aec9870e5d53">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-11-29 17:46:20" Modified_Date="2024-04-02 13:12:25" Creator="Administrator" Comments="" ID="ac52722c8a5d129dd7378b67cbcbc057">
   <Library_General_Settings>
     <Package_File_Name>oglib_file</Package_File_Name>
-    <Library_Version>6.0.1.28</Library_Version>
+    <Library_Version>6.0.2.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,9 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 6.0.1.19</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 6.0.1.20</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
-      <Direct_Dependencies>oglib_array-6.0.1.19</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-6.0.1.20</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -37,7 +37,8 @@
       <Copyright>2002-2024 Project Contributors (See CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_file/</URL>
-      <Release_Notes>- [6.0.1] Hotfix to remove "__ogtk" suffix from lvlib name
+      <Release_Notes>- [6.0.2] Upgrade to new OpenG Array Library
+- [6.0.1] Hotfix to remove "__ogtk" suffix from lvlib name
 - Upgraded sources to LV2020 #2
 - Changed all VIs to source-only #3
 - Moved library VIs into Library ('openg_file.lvlib') #4
@@ -525,7 +526,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path/>
         <VI_Title>LLB Librarian VIs</VI_Title>
       </Items_Data>
-      <GUID>5DDABB83A826B6B98944A8D0D9F7AF12</GUID>
+      <GUID>C353522C464E97572D6E05B54757BC34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -728,7 +729,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>library\Temporary Directory.vi</Path>
         <VI_Title>Temporary Directory</VI_Title>
       </Items_Data>
-      <GUID>1D1999AF7C75E58F09CD4E9CD03DB4DF</GUID>
+      <GUID>5BE4631A4304018D98F1DA9FA70C8775</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1099,7 +1100,7 @@ Important: Callers of this package will relink automatically to the new Library 
         <Path>&lt;vi.lib&gt;\Utility\libraryn.llb\Get VI Library List.vi</Path>
         <VI_Title>Get VI Library List.vi</VI_Title>
       </Items_Data>
-      <GUID>4F19DB9D879D079A1EE7F2378306DE5B</GUID>
+      <GUID>E0EA3A67E72B14FFABFD42E255E78773</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
